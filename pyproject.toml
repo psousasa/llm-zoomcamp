@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "llm-zoomcamp"
+version = "0.1.0"
+description = ""
+authors = ["Pedro Sa <pedro.sa@loka.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sentence-transformers = "^3.0.1"
+rouge = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

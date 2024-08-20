@@ -9,7 +9,11 @@ readme = "README.md"
 python = "^3.10"
 sentence-transformers = "^3.0.1"
 rouge = "^1.0.1"
+elasticsearch = "^8.15.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
